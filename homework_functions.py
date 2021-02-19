@@ -8,3 +8,12 @@ def get_unique_elements(numbers):
         get_unique_elements.append(numbers)
     return get_unique_elements
 print(get_unique_elements(numbers))
+
+
+def transform_to_string(s):
+    str = ""
+    for str1 in s:
+        str1 += str
+    return str1
+s = [1, True, 'Hello']
+print(transform_to_string(s))
